@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+.App {
+  text-align: center;
+  font: 1em 'Roboto', sans-serif;
+  margin-top: 2em;
+}
+
+.App .link {
+  margin-top: 300px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input {
+  border: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 14px;
+}
+
+.searchContainer {
+  display: flex;
+}
+
+.searchButton {
+  background: #f2f2f2;
+  color: #000000;
+  padding: 12px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.spacer-left {
+  margin-left: 15px;
+}
+
+.spacer-bottom {
+  margin-bottom: 15px;
+}

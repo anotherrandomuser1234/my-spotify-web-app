@@ -1,0 +1,37 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    color: black;
+    margin: 10px;
+    width: 12em;
+    height: 16em;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+
+  .card p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .card:hover {
+    transition: background-color 0.3s;
+    background-color: #ccfbc6;
+    cursor:pointer;
+  }
+
+  .image {
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+  }
+
+  .card h3, .card p {
+    font-weight: 400;
+  }

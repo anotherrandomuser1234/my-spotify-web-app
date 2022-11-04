@@ -1,0 +1,39 @@
+.songContainer {
+    font-size: 18px;
+    font-weight: 700;
+    width: 60%;
+    height: 80%;
+}
+
+.tableImage {
+    width: 5em;
+    height: 5em;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
